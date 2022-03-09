@@ -9,8 +9,17 @@
     height: 845px;
     background-repeat: no-repeat;
     color: white;
+   
 }
-.container-fluid img{
-    padding-top: 270px;
+.logo{
+    padding-top: 267px;
     padding-left: -50px;
+}
+.mouse{
+    padding-top: 180px;
+}
+.container-fluid h1{
+    padding-top: 26px;
+    font-weight: 150;
+    font-size: 50px;
 }
