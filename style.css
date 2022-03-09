@@ -1,0 +1,16 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container-fluid{
+    background-image: url("/images/stairs.jpg");
+    background-size: 100%;
+    height: 845px;
+    background-repeat: no-repeat;
+    color: white;
+}
+.container-fluid img{
+    padding-top: 270px;
+    padding-left: -50px;
+}
