@@ -39,6 +39,9 @@
 .what-we-do{
   margin-top: 50px;
 }
+.portfolio{
+    margin-top: 80px;
+}
 .portfolio img{
     margin: 20px;
 }
@@ -65,3 +68,33 @@
     height: 160px;
     width: 210px;
 }
+.contact{
+    margin-top: -200px;
+    background-image: url("/images/machine.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 55px;
+    padding-right: 180px;
+    height: 540px;
+    color: white;
+}
+input{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* affects all place holders */
+::placeholder {
+    color: white;
+    text-align: left;
+  }
+  /* for message input */
+  .height{
+      height: 250px;
+      width: 1000px;
+      
+      margin-left: 50px;
+
+  }
