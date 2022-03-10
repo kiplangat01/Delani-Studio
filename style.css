@@ -27,3 +27,12 @@
     color: black;
     padding-top: 60px;
 }
+.services{
+    background-image: url("/images/desk.jpg");
+    margin-top: 70px;
+    padding: 120px;
+    padding-right: 240px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
