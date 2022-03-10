@@ -45,6 +45,7 @@
 .portfolio img{
     margin: 20px;
 }
+/* exra class to help in styling last work photo different from others */
 .work8{
     position: relative;
     left: 1070px;
@@ -68,6 +69,7 @@
     height: 160px;
     width: 210px;
 }
+/* text aligned correctly */
 .contact{
     margin-top: -200px;
     background-image: url("/images/machine.jpg");
@@ -78,10 +80,12 @@
     height: 540px;
     color: white;
 }
+/* for all placeholders */
 input{
     background-color: transparent;
     border: 1px solid white;
     width: 500px;
+    color: white;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -94,7 +98,6 @@ input{
   .height{
       height: 250px;
       width: 1000px;
-      
       margin-left: 50px;
-
   }
+   
