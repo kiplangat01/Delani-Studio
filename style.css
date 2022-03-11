@@ -1,8 +1,10 @@
 *{
     font-family: sans-serif;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
-
+/* thi container is for bootstrap */
 .container-fluid{
     background-image: url("/images/stairs.jpg");
     background-size: 100%;
@@ -36,14 +38,21 @@
     background-size: 100%;
     color: white;
 }
-.what-we-do{
-  margin-top: 50px;
+.container{
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 30px;
+  margin-left: 300px; */
+}
+#show2, #show3, #show4{
+  display: none;
 }
 .portfolio{
     margin-top: 80px;
 }
 .portfolio img{
     margin: 20px;
+    
 }
 /* exra class to help in styling last work photo different from others */
 .work8{
@@ -100,4 +109,11 @@ input{
       width: 1000px;
       margin-left: 50px;
   }
+  .social{
+      margin-top: 40px;
+  }
+  .social img{
+      margin: 10px;
+  }
+
    
