@@ -15,6 +15,15 @@ $(".what3").click(function(){
     $("#show4").slideToggle()
   })
   
+  $("what4").click(function(){
+    $("#hide4").slideToggle()
+    $("#show4").slideToggle()
+  })
+  
 
-
+  $("#submit").click(function(){
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+  })
 })
