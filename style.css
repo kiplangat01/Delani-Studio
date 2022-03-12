@@ -39,12 +39,7 @@
     background-size: 100%;
     color: white;
 }
-.container{
-  display: flex;
-  flex-direction: row;
-  /* margin-top: 30px;
-  margin-left: 300px; */
-}
+
 #show2, #show3, #show4{
   display: none;
 }
@@ -56,18 +51,7 @@
     
 }
 /* exra class to help in styling last work photo different from others */
-.work8{
-    position: relative;
-    left: 1070px;
-    top: -220px;
-    color: white;
-    background-image: url("/images/work8.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 250px;
-    width: 250px;
-    padding: 20px;
-}
+
 .move{
     position: relative;
     right: 145px;
@@ -120,5 +104,28 @@ input{
   .social img{
       margin: 10px;
   }
+   .project img{
+       width: 270px;
+       height: 200px;
+   }
 
+  .para1{
+      
+    color: white;
+    text-align: left;
+    opacity: 0.5;
+    border: 3px solid white;
+    background-color: black;
+    -ms-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+    position: relative;
+    height: 150px;
+    width: 60%;
+    font-weight: 500px;
+    top: -40%;
+    left: 30%;
+    right: 20%;
+    text-transform: uppercase;
+
+  }
    

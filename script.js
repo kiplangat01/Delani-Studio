@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+  $(".para1").hide()
+  $(".project").hover(function(){
+    $(this).find(".para1").toggle(1000)
+  });
+
+
 $(".what2").click(function(){
   $("#hide2").slideToggle()
   $("#show2").slideToggle()
@@ -15,10 +21,6 @@ $(".what3").click(function(){
     $("#show4").slideToggle()
   })
   
-  $("what4").click(function(){
-    $("#hide4").slideToggle()
-    $("#show4").slideToggle()
-  })
   
 
   $("#submit").click(function(){
@@ -36,7 +38,10 @@ $(".what3").click(function(){
       alert("write a message")
     }
     else {
-     alert(name + " " + "we have received your message. Thank you fro reaching out to us.")
+     alert(name + " " + "we have received your message. Thank you for reaching out to us.")
     }
   })
+
+ 
+
 })
