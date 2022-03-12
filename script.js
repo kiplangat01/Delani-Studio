@@ -14,5 +14,7 @@ $(".what3").click(function(){
     $("#hide4").slideToggle()
     $("#show4").slideToggle()
   })
+  
+
 
 })
