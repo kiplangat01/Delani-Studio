@@ -110,7 +110,9 @@ input{
   .height{
       height: 250px;
       width: 1000px;
+      border: 1px solid white;
       margin-left: 50px;
+      background-color: transparent;
   }
   .social{
       margin-top: 40px;
