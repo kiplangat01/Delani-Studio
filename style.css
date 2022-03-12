@@ -110,7 +110,6 @@ input{
    }
 
   .para1{
-      
     color: white;
     text-align: left;
     opacity: 0.5;
@@ -120,12 +119,11 @@ input{
     transform: translate(-20%, -20%);
     position: relative;
     height: 150px;
-    width: 60%;
+    width: 150px;
     font-weight: 500px;
     top: -40%;
     left: 30%;
     right: 20%;
     text-transform: uppercase;
-
   }
    
