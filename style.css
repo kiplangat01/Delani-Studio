@@ -7,13 +7,22 @@
 }
 /* thi container is for bootstrap */
 .container-fluid{
-    background-image: url("/images/stairs.jpg");
+    background-image: url("./images/stairs.jpg");
     background-size: 100%;
     height: 845px;
     background-repeat: no-repeat;
     color: white;
    
 }
+.delani{
+    position: relative;
+}
+
+.delani2{
+    position: relative;
+}
+
+
 .logo{
     padding-top: 267px;
     padding-left: -50px;
@@ -31,7 +40,7 @@
     padding-top: 60px;
 }
 .services{
-    background-image: url("/images/desk.jpg");
+    background-image: url("./images/desk.jpg");
     margin-top: 70px;
     padding: 120px;
     padding-right: 240px;
@@ -59,7 +68,7 @@
 /* text aligned correctly */
 .contact{
     margin-top: 100px;
-    background-image: url("/images/machine.jpg");
+    background-image: url("./images/machine.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 55px;
@@ -97,14 +106,24 @@ input{
   .social img{
       margin: 10px;
   }
-   .project img{
-       width: 260px;
-       height: 200px;
-       margin-top: 20px;
-       margin-left: 10px;
+  .container{
+    display: block;
+    margin-left: 10px;
+  }
+  .container2{
+      margin-left: -5px;
+  }
+   .container0 img{
+     width: 70%;  
+   }
+   .container2 img{
+    width: 70%;  
+  }
+   .box{
+    position: relative;
    }
 
-  .para1{
+   .overlay{
     color: white;
     text-align: left;
     opacity: 0.5;
@@ -112,15 +131,15 @@ input{
     background-color: black;
     -ms-transform: translate(-20%, -20%);
     transform: translate(-20%, -20%);
-    position: relative;
+    position: absolute;
     height: 150px;
     width: 150px;
     font-weight: 500px;
-    top: -40%;
-    left: 30%;
+    top: 28%;
+    left: 35%;
     right: 20%;
     text-transform: uppercase;
-  }
+}
   #message{
       margin-right: 45px;
   }

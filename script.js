@@ -38,9 +38,9 @@ $(".what3").click(function(){
     }
   })
 
-  $(".para1").hide()
-  $(".project").hover(function(){
-    $(this).find(".para1").toggle(600)
+  $(".overlay").hide()
+  $(".box").hover(function(){
+    $(this).find(".overlay").toggle(600)
   });
 
 
