@@ -7,7 +7,7 @@
 }
 /* thi container is for bootstrap */
 .container-fluid{
-    background-image: url("./images/stairs.jpg");
+    background-image: url("/images/stairs.jpg");
     background-size: 100%;
     height: 845px;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
     padding-top: 60px;
 }
 .services{
-    background-image: url("./images/desk.jpg");
+    background-image: url("/images/desk.jpg");
     margin-top: 70px;
     padding: 120px;
     padding-right: 240px;
@@ -59,7 +59,7 @@
 /* text aligned correctly */
 .contact{
     margin-top: 100px;
-    background-image: url("./images/machine.jpg");
+    background-image: url("/images/machine.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 55px;
@@ -106,17 +106,17 @@ input{
 
   .para1{
     color: white;
-    /* text-align: left; */
+    text-align: left;
     opacity: 0.5;
     border: 3px solid white;
     background-color: black;
     -ms-transform: translate(-20%, -20%);
     transform: translate(-20%, -20%);
-    position:absolute;
+    position: relative;
     height: 150px;
     width: 150px;
     font-weight: 500px;
-    top: 90%;
+    top: -40%;
     left: 30%;
     right: 20%;
     text-transform: uppercase;
