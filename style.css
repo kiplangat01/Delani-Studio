@@ -108,7 +108,7 @@ input{
   }
   .container{
     display: block;
-    margin-left: 10px;
+    margin-left: 180px;
   }
   .container2{
       margin-left: -5px;
@@ -117,9 +117,15 @@ input{
      width: 70%;  
    }
    .container2 img{
-    width: 70%;  
-    padding: 10px;
-    margin-left: 10;
+    width: 80%;  
+    
+    margin-left: -10;
+    margin-top: 40px;
+  }
+  .container0 img{
+    width: 80%;  
+    
+    margin-left: -10;
   }
    .box{
     position: relative;
@@ -151,4 +157,7 @@ input{
       border-radius: 10px;
       border: 0px;
       background-color: aqua;
+  }
+  .gallery{
+      margin-top: 100px;
   }
