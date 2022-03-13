@@ -45,17 +45,10 @@
 }
 .portfolio{
     margin-top: 80px;
+    padding: 300px;
 }
-.portfolio img{
-    margin: 20px;
-    
-}
-/* exra class to help in styling last work photo different from others */
 
-.move{
-    position: relative;
-    right: 145px;
-}
+
 .h4{
     border: 4px solid white;
     text-align: left;
@@ -79,9 +72,8 @@ input{
     background-color: transparent;
     border: 1px solid white;
     width: 500px;
-    color: white;
-    margin-top: 20px;
-    margin-left: 20px;
+    justify-content: left;
+    padding-left: 30px;
 }
 
 /* affects all place holders */
@@ -89,6 +81,7 @@ input{
     color: white;
     text-align: left;
     padding-top: 0px;
+    
   }
   /* for message input */
   .height{
@@ -105,8 +98,10 @@ input{
       margin: 10px;
   }
    .project img{
-       width: 270px;
+       width: 260px;
        height: 200px;
+       margin-top: 20px;
+       margin-left: 10px;
    }
 
   .para1{
@@ -126,4 +121,13 @@ input{
     right: 20%;
     text-transform: uppercase;
   }
-   
+  #message{
+      margin-right: 45px;
+  }
+  button{
+      padding: 3px 40px;
+      font-weight: bolder;
+      border-radius: 10px;
+      border: 0px;
+      background-color: aqua;
+  }
