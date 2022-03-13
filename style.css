@@ -14,6 +14,15 @@
     color: white;
    
 }
+.delani{
+    position: relative;
+}
+
+.delani2{
+    position: relative;
+}
+
+
 .logo{
     padding-top: 267px;
     padding-left: -50px;
@@ -97,30 +106,42 @@ input{
   .social img{
       margin: 10px;
   }
-   .project img{
-       width: 260px;
-       height: 200px;
-       margin-top: 20px;
-       margin-left: 10px;
+  .container{
+    display: block;
+    margin-left: 10px;
+  }
+  .container2{
+      margin-left: -5px;
+  }
+   .container0 img{
+     width: 70%;  
+   }
+   .container2 img{
+    width: 70%;  
+    padding: 10px;
+    margin-left: 10;
+  }
+   .box{
+    position: relative;
    }
 
-  .para1{
+   .overlay{
     color: white;
-    /* text-align: left; */
+    text-align: left;
     opacity: 0.5;
     border: 3px solid white;
     background-color: black;
     -ms-transform: translate(-20%, -20%);
     transform: translate(-20%, -20%);
-    position:absolute;
+    position: absolute;
     height: 150px;
     width: 150px;
     font-weight: 500px;
-    top: 90%;
-    left: 30%;
+    top: 28%;
+    left: 35%;
     right: 20%;
     text-transform: uppercase;
-  }
+}
   #message{
       margin-right: 45px;
   }
