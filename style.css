@@ -140,10 +140,10 @@ input{
     -ms-transform: translate(-20%, -20%);
     transform: translate(-20%, -20%);
     position: absolute;
-    height: 150px;
-    width: 150px;
-    font-weight: 500px;
-    top: 28%;
+    height: 200px;
+    width: 200px;
+    font-weight: bolder;
+    top: 30%;
     left: 35%;
     right: 20%;
     text-transform: uppercase;
