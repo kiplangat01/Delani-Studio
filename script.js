@@ -40,7 +40,7 @@ $(".what3").click(function(){
 
   $(".para1").hide()
   $(".project").hover(function(){
-    $(this).find(".para1").toggle(1000)
+    $(this).find(".para1").toggle(600)
   });
 
 

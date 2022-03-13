@@ -106,17 +106,17 @@ input{
 
   .para1{
     color: white;
-    text-align: left;
+    /* text-align: left; */
     opacity: 0.5;
     border: 3px solid white;
     background-color: black;
     -ms-transform: translate(-20%, -20%);
     transform: translate(-20%, -20%);
-    position: relative;
+    position:absolute;
     height: 150px;
     width: 150px;
     font-weight: 500px;
-    top: -40%;
+    top: 90%;
     left: 30%;
     right: 20%;
     text-transform: uppercase;
