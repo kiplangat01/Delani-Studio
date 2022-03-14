@@ -140,7 +140,7 @@ input{
     -ms-transform: translate(-20%, -20%);
     transform: translate(-20%, -20%);
     position: absolute;
-    height: 200px;
+    height: 210px;
     width: 200px;
     font-weight: 500px;
     font-weight: bolder;
@@ -161,8 +161,5 @@ input{
   /* .gallery{
       margin-top: 100px;
       margin-left: 30px;
-<<<<<<< HEAD
   }
-=======
   } */
->>>>>>> ee46de501e953062c48750d256f787d5cb6a6b24
