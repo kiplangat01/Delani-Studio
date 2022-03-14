@@ -1,7 +1,8 @@
 *{
     font-family: sans-serif;
     text-align: center;
-    margin: -5px;
+    margin: 0px;
+    background-size: auto;
     padding: 0px;
 
 }
@@ -72,7 +73,8 @@
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 55px;
-    padding-right: 180px;
+    padding-right: 100px;
+    width: 1500px;
     height: 540px;
     color: white;
 }
@@ -149,7 +151,7 @@ input{
     text-transform: uppercase;
 }
   #message{
-      margin-right: 45px;
+      margin-right: 30px;
   }
   button{
       padding: 3px 40px;
@@ -160,5 +162,5 @@ input{
   }
   .gallery{
       margin-top: 100px;
-      
+      margin-left: 30px;
   }
