@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div class="container-fluid sm-flex" id="">
+  <div class="hero container-fluid" id="">
     <img class="logo" src="./images/logo.png" alt="" />
 
     <h1 ><b>WELCOME</b></h1>
@@ -39,7 +39,7 @@
     </p>
   </div>
 
-  <div class="services">
+  <div class="services container-fluid">
     <h4>
       <b>SERVICES</b>
     </h4>
@@ -54,13 +54,9 @@
       the pieces you need.
     </p>
   </div>
-  <h4 class="mb-3 mt-4 sm-flex"><b> WHAT WE DO </b></h4>
-  <br>
-  <br>
-  <div class="toggle d-flex">
-
-    <br />
-    <div class="col-sm-3 what2">
+  <div class="toggle container-fluid row">
+    <h4 class="text-center">WHAT WE DO</h4>
+    <div class="col-md-4 what2">
       <img src="./images/design_icon.png" class="design" id="hide2" />
       <h6 class="mt-1"><b>DESIGN</b></h6>
       <p id="show2"><b>Our design practice offers a full range of services
@@ -70,7 +66,7 @@
           solicit user feedback and work with
           you to make sure what gets built is what is needed.</b></p>
     </div>
-    <div class="col what3">
+    <div class="col-md-4 what3">
       <img src="./images/dev_icon.png" class="dev" id="hide3" />
       <h6 class="mt-1"><b>DEVELOPMENT</b></h6>
       <p id="show3"><b>
@@ -82,7 +78,7 @@
         </b></p>
     </div>
 
-    <div class="col what4">
+    <div class="col-md-4 what4">
       <img src="./images/product_icon.png" height="80px" class="product" id="hide4" />
       <h6 class="mt-1"><b>PRODUCT MANAGEMENT</b></h6>
       <p id="show4"><b>Planning and development is iterative.
@@ -162,21 +158,32 @@
 
     
 </section>
-  <div class="contact row d-block p-4 box col-md-3">
-    <h4>
-      <b> CONTACT US </b>
-    </h4>
-    <form action="">
-      <input id="name" name="text" type="text" placeholder="Name..." required/>
-      <input id="email" name="email" type="text" placeholder="Email..." required/> <br> <br>
-      <textarea id="message" name="" rows="7" type="text" placeholder="Your message here..." 
-      class="height" required></textarea>
-      <br> <br>
-      <button id="submit" type="submit">send</button>
+  <div class="contact container-fluid">
+   
+
+     <section class="container-fluid contact-bg">
+        <h1 class="text-center p-3">CONTACT US</h1>
+        <form action="https://formspree.io/f/mdobdovj" method="post" class="p-3" required id="form">
+            <div class="form-group form-inline m-3">
+                <label for="name" class="p-3">
+                    <input class="form-control" type="text" name="name" id="name" required placeholder="Enter Name">
+                </label>
+                <label for="email" class="p-3">
+                  <input class="form-control" type="email" name="email" id="email" required placeholder="Enter Email">
+                </label>
+            </div>
+            <div class="form-group m-3">
+                <label for="message">
+                    <textarea class="form-control" name="Message" id="message" rows="8"
+                        placeholder="Enter Message"></textarea>
+                </label>
+            </div>
+            <input type="sub">
+      <button type="submit" class="btn btn-primary">Primary</button>
     </form>
   </div>
 
-  <div class="social">
+  <div class="social container-fluid">
     <img src="./images/twitter.png" alt="" />
     <img src="./images/dribble.png" alt="" />
     <img src="./images/facebook.png" alt="" />

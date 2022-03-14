@@ -1,16 +1,16 @@
-*{
+body{
     font-family: sans-serif;
     text-align: center;
-    margin: 0px;
-    background-size: auto;
-    padding: 0px;
-    background-size: auto;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
 }
 /* thi container is for bootstrap */
-.container-fluid{
+.hero{
     background-image: url("./images/stairs.jpg");
-    background-size: 100%;
-    height: 845px;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     color: white;
    
@@ -42,11 +42,8 @@
 }
 .services{
     background-image: url("./images/desk.jpg");
-    margin-top: 70px;
-    padding: 120px;
-    padding-right: 240px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     color: white;
 }
 
@@ -68,15 +65,10 @@
 }
 /* text aligned correctly */
 .contact{
-    margin-top: 100px;
     background-image: url("./images/machine.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 55px;
-    padding-right: 100px;
-    width: 1500px;
-    height: 540px;
-    color: white;
+   color: white;
 }
 /* for all placeholders */
 input{
@@ -95,37 +87,25 @@ input{
     
   }
   /* for message input */
-  .height{
-      height: 250px;
-      width: 1000px;
-      border: 1px solid white;
-      margin-left: 50px;
-      background-color: transparent;
-  }
   .social{
       margin-top: 40px;
   }
   .social img{
       margin: 10px;
   }
-  .toggle{
-    display: block;
-    margin-left: 180px;
-  }
-  .container2{
-      /* margin-left: -5px; */
-  }
+  
+ 
    .container0 img{
      max-width: 100%;  
    }
    .container2 img{
     max-width: 100%;  
-    /* margin-top: 40px; */
+   
   }
   .container0 img{
     width: 100%;  
     
-    /* margin-left: -10; */
+   
   }
    .box{
     position: relative;
@@ -148,21 +128,6 @@ input{
     left: 35%;
     text-transform: uppercase;
 }
-  #message{
-      margin-right: 30px;
-  }
-  button{
-      padding: 3px 40px;
-      font-weight: bolder;
-      border-radius: 10px;
-      border: 0px;
-      background-color: aqua;
-  }
-  /* .gallery{
-      margin-top: 100px;
-      margin-left: 30px;
-<<<<<<< HEAD
-  }
-=======
-  } */
->>>>>>> ee46de501e953062c48750d256f787d5cb6a6b24
+ 
+    
+  
