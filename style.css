@@ -4,7 +4,7 @@
     margin: 0px;
     background-size: auto;
     padding: 0px;
-
+    background-size: auto;
 }
 /* thi container is for bootstrap */
 .container-fluid{
@@ -108,26 +108,24 @@ input{
   .social img{
       margin: 10px;
   }
-  .container{
+  .toggle{
     display: block;
     margin-left: 180px;
   }
   .container2{
-      margin-left: -5px;
+      /* margin-left: -5px; */
   }
    .container0 img{
-     width: 70%;  
+     max-width: 100%;  
    }
    .container2 img{
-    width: 80%;  
-    
-    margin-left: -10;
-    margin-top: 40px;
+    max-width: 100%;  
+    /* margin-top: 40px; */
   }
   .container0 img{
-    width: 80%;  
+    width: 100%;  
     
-    margin-left: -10;
+    /* margin-left: -10; */
   }
    .box{
     position: relative;
@@ -160,7 +158,11 @@ input{
       border: 0px;
       background-color: aqua;
   }
-  .gallery{
+  /* .gallery{
       margin-top: 100px;
       margin-left: 30px;
+<<<<<<< HEAD
   }
+=======
+  } */
+>>>>>>> ee46de501e953062c48750d256f787d5cb6a6b24
