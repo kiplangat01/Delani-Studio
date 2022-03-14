@@ -80,10 +80,10 @@ input{
 }
 
 /* affects all place holders */
-::placeholder {
+::required placeholder {
     color: white;
     text-align: left;
-    padding-top: 0px;
+    
     
   }
   /* for message input */
@@ -153,4 +153,7 @@ input{
     background-color: transparent;
     color: white;
     padding-right: 230px;
+}
+.form-control::placeholder{
+    color: white;
 }
