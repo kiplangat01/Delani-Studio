@@ -1,7 +1,7 @@
 *{
     font-family: sans-serif;
     text-align: center;
-    margin: 0px;
+    margin: -5px;
     padding: 0px;
 
 }
@@ -145,7 +145,6 @@ input{
     font-weight: bolder;
     top: 30%;
     left: 35%;
-    right: 20%;
     text-transform: uppercase;
 }
   #message{
@@ -160,4 +159,5 @@ input{
   }
   .gallery{
       margin-top: 100px;
+      
   }
