@@ -19,16 +19,23 @@ $(".what3").click(function(){
   
   
 
-  $("#submit").click(function(){
+  $("#submit").click(function(event){
+    // event.preventDefoult();
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
     let verfiedEmail =  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     let emailVerifiedResult = verfiedEmail.test(email)
 
-    if(name ==  "" || email == "" || message == ""){
-      alert("enter your name emil and a message")
+    if(name ==  "" ){
+      alert("enter your correct name")
     } 
+    else if(message == "" ){
+      alert("please enter a message")
+    }
+     else if(email == "" ){
+       alert("please enter your correct email")
+     }
     else if(!emailVerifiedResult){
       alert("invalid email")
     }

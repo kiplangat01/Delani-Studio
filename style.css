@@ -138,11 +138,19 @@ input{
       border: 0px;
       background-color: aqua;
   }
-  /* .gallery{
-      margin-top: 100px;
-      margin-left: 30px;
+  #message{
+      background-color: transparent;
+      color: white;
+      padding-right: 630px;
   }
-  } */
- 
-    
-  
+  #email{
+      background-color: transparent;
+      color: white;
+      padding-right: 230px;
+  }
+
+  #name{
+    background-color: transparent;
+    color: white;
+    padding-right: 230px;
+}
