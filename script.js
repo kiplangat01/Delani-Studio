@@ -17,32 +17,6 @@ $(".what3").click(function(){
     $("#show4").slideToggle()
   })
   
-  
-
-  $("#submit").click(function(event){
-    // event.preventDefoult();
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("message").value;
-    let verfiedEmail =  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    let emailVerifiedResult = verfiedEmail.test(email)
-
-    if(name ==  "" ){
-      alert("enter your correct name")
-    } 
-    else if(message == "" ){
-      alert("please enter a message")
-    }
-     else if(email == "" ){
-       alert("please enter your correct email")
-     }
-    else if(!emailVerifiedResult){
-      alert("invalid email")
-    }
-    else {
-     alert(name + " " + "we have received your message. Thank you for reaching out to us.")
-    }
-  })
 
   $(".overlay").hide()
   $(".box").hover(function(){
@@ -51,3 +25,36 @@ $(".what3").click(function(){
 
 
 })
+
+
+var form = document.getElementById("form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      var name = document.getElementById("name").value;
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          alert(name + " " + "we have received your message. Thank you for reaching out to us.")
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
